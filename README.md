@@ -6,7 +6,7 @@ An algorithm to evolve robot with various morphology using genetic programming
 <img src="./img/multi.png" width="300">
 
 ## Prerequisite
-OS: I only use Ubuntu but it is very easy to use VS etc. to have fun with this repo.
+OS: I use Ubuntu but it is very easy to use VS etc. to have fun with this repo.
 
 Compiler: I use `g++` with `-ofast` and multithread optimization with `opemmp`
 
