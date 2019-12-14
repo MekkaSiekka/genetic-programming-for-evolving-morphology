@@ -1,6 +1,7 @@
 # Genetic Programming for Evolving Morphology
 
 An algorithm to evolve robot with various morphology using genetic programming
+![multiRobot](./img/multi.png)
 
 ## Prerequisite
 OS: I only use Ubuntu but it is very easy to use VS etc. to have fun with this repo
