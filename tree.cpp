@@ -17,7 +17,7 @@
 using namespace std;
 
 int LEN = 32;
-long EVAL_LIM = 2000;
+long EVAL_LIM = 20000;
 int POP_SIZE = 96;
 double THRESH = 0.4;
 
@@ -563,12 +563,14 @@ void test(){
 void init_shapes(){
 	shape_bank.push_back({{0,1,0},{0,2,0},{0,3,0}});
 	shape_bank.push_back({{0,0,0},{1,0,0},{2,0,0}});
+	shape_bank.push_back({{0,0,0},{0,0,1},{0,0,2}});
+
 	
 	shape_bank.push_back({{1,0,0},{0,0,0},{0,-1,0}});
 	shape_bank.push_back({{-1,0,0},{0,0,0},{0,-1,0}});
 	shape_bank.push_back({{0,0,0},{-1,0,0},{0,-1,0}});
 	shape_bank.push_back({{0,0,0},{1,0,0},{0,-1,0}});
-	shape_bank.push_back({{0,0,0},{0,0,1},{0,0,2}});
+	
 	
 	property_bank.push_back({1,2,3});
 	property_bank.push_back({1,3,2});

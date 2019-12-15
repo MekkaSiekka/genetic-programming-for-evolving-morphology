@@ -280,7 +280,7 @@ if __name__ == "__main__":
     if DRAW:
         a=1
         draw_world()
-    s = System("MAIN")
+    s = System("./")
     # a = vertex( pos=vec(0,0,0) , color= vec(1,0,0))
     # b = vertex( pos=vec(0,0,0),color= vec(0,1,0) )
     # c = vertex( pos=vec(0,0,0),color= vec(0,0,1) )
